@@ -34,7 +34,7 @@
   })->after($hdrs);
   
    $app->get('/author', function () use($app) {
-    return '<h4 id="author" title="GossJS">Мария Шибаева</h4>'; 
+    return '<h4 id="author" title="GossJS">Ann Golubeva</h4>'; 
   })->after($hdrs);
   $app->error(function ($e) use($app) {
     if ($e instanceof Symfony\Component\HttpKernel\Exception\NotFoundHttpException) {
